@@ -5,7 +5,8 @@
 
 // Dependenices
 const server = require('./lib/server');
-const workers = require('./lib/workers')
+const workers = require('./lib/workers');
+const _bot = require('./lib/bots');
 
 // Creation of app object
 const app = {};
